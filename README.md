@@ -12,5 +12,4 @@
 | User Interface | Tampilan aplikasi dirancang dengan desain yang bersih, modern, dan nyaman di mata, menggunakan kombinasi warna yang tidak terlalu terang dan tidak terlalu gelap agar mudah digunakan dalam jangka waktu lama. |
 | Cara Menjalankan Aplikasi | Pertama clone repository dari GitHub, kemudian masuk ke direktori project. Jalankan perintah npm install untuk menginstal seluruh dependency, lalu jalankan npm start untuk menjalankan aplikasi pada browser melalui alamat http://localhost:3000. |
 | Kesesuaian Requirement | Aplikasi ini telah memenuhi seluruh requirement tes teknis, yaitu menampilkan daftar todo, menambahkan todo baru, menandai todo sebagai selesai, menghapus todo, menggunakan React Functional Components, menggunakan React Hooks, serta memiliki UI yang rapi dan mudah digunakan. |
-| Author | [Your Name] |
 | Catatan Tambahan | Project ini dibuat khusus untuk keperluan tes teknis dan pembelajaran React, serta dapat dikembangkan lebih lanjut dengan fitur tambahan seperti penyimpanan data menggunakan localStorage atau penambahan filter todo. |
