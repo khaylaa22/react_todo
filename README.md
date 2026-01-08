@@ -1,70 +1,16 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Kategori | Penjelasan |
+|--------|------------|
+| Nama Project | React Todo App |
+| Latar Belakang | Project ini dibuat sebagai bagian dari Tes Teknis untuk menguji pemahaman dasar pengembangan aplikasi menggunakan React, khususnya dalam penggunaan React Functional Components, Hooks, serta pengelolaan state dan alur data dalam aplikasi sederhana. |
+| Deskripsi Aplikasi | React Todo App adalah aplikasi Todo List berbasis web yang memungkinkan pengguna untuk mencatat aktivitas atau tugas harian. Pengguna dapat menambahkan todo baru, melihat daftar todo yang telah dibuat, menandai todo sebagai selesai, serta menghapus todo yang sudah tidak diperlukan. |
+| Tujuan Pembuatan | Tujuan dari aplikasi ini adalah untuk menunjukkan kemampuan dasar React seperti pengelolaan state menggunakan Hooks, pemisahan komponen agar kode lebih terstruktur, serta pembuatan antarmuka pengguna yang rapi dan mudah digunakan. |
+| Fitur Utama | Menampilkan daftar todo secara dinamis, menambahkan todo baru melalui form input, menandai todo sebagai selesai menggunakan checkbox, menghapus todo dari daftar |
+| Teknologi yang Digunakan | React JS, JavaScript ES6, React Hooks (useState), CSS untuk styling tampilan |
+| Arsitektur Komponen | Aplikasi dibangun menggunakan pendekatan component-based. Komponen App berfungsi sebagai parent component yang menyimpan state todo. Komponen TodoForm bertugas menangani input dan penambahan todo. Komponen TodoList menampilkan daftar todo, dan TodoItem menangani tampilan serta interaksi pada setiap item todo. |
+| Alur Kerja Aplikasi | Saat aplikasi dijalankan, state todo diinisialisasi sebagai array kosong. Ketika pengguna menambahkan todo, data akan disimpan ke dalam state menggunakan useState. Setiap perubahan state akan memicu re-render sehingga UI selalu menampilkan data terbaru. Pengguna dapat menandai todo sebagai selesai atau menghapus todo, dan perubahan tersebut langsung tercermin pada tampilan. |
+| Pengelolaan State | State dikelola menggunakan React Hook useState tanpa menggunakan class component, sehingga aplikasi sepenuhnya menggunakan pendekatan React modern berbasis functional component. |
+| User Interface | Tampilan aplikasi dirancang dengan desain yang bersih, modern, dan nyaman di mata, menggunakan kombinasi warna yang tidak terlalu terang dan tidak terlalu gelap agar mudah digunakan dalam jangka waktu lama. |
+| Cara Menjalankan Aplikasi | Pertama clone repository dari GitHub, kemudian masuk ke direktori project. Jalankan perintah npm install untuk menginstal seluruh dependency, lalu jalankan npm start untuk menjalankan aplikasi pada browser melalui alamat http://localhost:3000. |
+| Kesesuaian Requirement | Aplikasi ini telah memenuhi seluruh requirement tes teknis, yaitu menampilkan daftar todo, menambahkan todo baru, menandai todo sebagai selesai, menghapus todo, menggunakan React Functional Components, menggunakan React Hooks, serta memiliki UI yang rapi dan mudah digunakan. |
+| Author | [Your Name] |
+| Catatan Tambahan | Project ini dibuat khusus untuk keperluan tes teknis dan pembelajaran React, serta dapat dikembangkan lebih lanjut dengan fitur tambahan seperti penyimpanan data menggunakan localStorage atau penambahan filter todo. |
